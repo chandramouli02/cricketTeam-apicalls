@@ -1,0 +1,33 @@
+### 1
+
+get http://localhost:3001/players/
+
+
+### 2
+post http://localhost:3001/players/
+Content-Type: application/json
+
+{
+    "playerName": "mouli",
+    "jerseyNumber": 333,
+    "role": "left-handed Batsman"
+}
+
+### 3
+get http://localhost:3001/players/13/
+
+### 4 
+put http://localhost:3001/players/13/
+Content-Type: application/json
+
+{ 
+  "playerName": "Nani",
+  "jerseyNumber": 111,
+  "role": "All-rounder"
+}
+
+### 5
+DELETE http://localhost:3001/players/12/
+
+###
+
